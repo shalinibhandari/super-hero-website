@@ -1,0 +1,84 @@
+body {
+    background-image: url('cover.gif');
+    height: 100vh;
+    background-size: cover;
+}
+
+#main {
+    padding: 10px;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blanchedalmond;
+}
+
+form input {
+    display: flex;
+    width: 80vh;
+    height: 5vh;
+    color: black;
+    margin: 10px auto;
+}
+
+.error {
+    background: orangered;
+    color: #fff;
+    width: 80vh;
+    text-align: center;
+    height: 4vh;
+    margin: 20px auto;
+}
+
+.form-access {
+    background-color: whitesmoke;
+    opacity: 1;
+    color: black;
+}
+
+.cards {
+    display: flex;
+    margin: 20px 0;
+    justify-content: center;
+    color: black;
+}
+
+.card {
+    display: inline-block;
+    flex-wrap: wrap;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: black;
+    border: 3px solid;
+    box-shadow: transparent;
+}
+
+.card:hover {
+    transition: 1.5s transform;
+}
+
+.card-img {
+    padding: 25px;
+    border-radius: 25px;
+    height: 250px;
+    width: 250px;
+    margin: auto;
+}
+
+.card-text {
+    font-weight: 800;
+    color: cornsilk;
+    font-size: larger;
+}
+
+.card-title {
+    color: cornsilk;
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+}
+
+.card-text>li>span {
+    font-weight: 400;
+    font-size: medium;
+}
